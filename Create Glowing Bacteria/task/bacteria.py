@@ -12,4 +12,11 @@ def stage2():
     print(fr1)
     print(fr2)
 
-stage2()
+def stage3():
+    first = input()
+    second = ''.join([dic[x] for x in first])
+    print(first)
+    print(second)
+
+
+stage3()
