@@ -37,4 +37,15 @@ def stage4():
     s2 = input().split()
     print(gfp(s1, s2[0], s2[1]))
 
-stage4()
+def stage5():
+    fn = input()
+    txt = []
+    with open(fn, 'r') as f:
+        for s in f:
+            txt.append(s)
+    s1 = txt[0].split()
+    s2 = txt[1].split()
+    print(s1[0] + s2[0] + s1[1])
+    print(s1[2] + s2[1] + s1[3])
+
+stage5()
